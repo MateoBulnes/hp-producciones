@@ -1356,7 +1356,22 @@ section {
   background: #ffcd6b;
 }
 
-.loading, .error-message, .sent-message {
+#btn_submit {
+  background: #ffc451;
+  border: 0;
+  padding: 10px 24px;
+  color: #151515;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+#btn_submit:hover {
+  background: #ffcd6b;
+}
+
+.loading,
+.error-message,
+.sent-message {
   display: none;
 }
 

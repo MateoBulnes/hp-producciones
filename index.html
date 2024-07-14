@@ -335,8 +335,10 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form name="contact" action="#" method="POST" data-netlify="true">
+            <form name="contact" action="" method="POST" data-netlify="true">
               <div class="row">
+                <input type="hidden" name="form-name" value="contact">
+
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
                 </div>
@@ -356,7 +358,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Su mensaje fue enviado con éxito!</div>
               </div>
-              <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+              <div class="text-center"><button type="submit" id="btn_submit">Enviar Mensaje</button></div>
             </form>
 
           </div>
